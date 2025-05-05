@@ -1,11 +1,17 @@
-# JetToolBox2 - Bulk Out of Office Scheduler
+# Bulk Out of Office Scheduler 🕒
 
-This script automates enabling or disabling Out of Office replies in bulk for multiple Microsoft 365 users.
+A PowerShell script designed to automate setting Out of Office replies for multiple users across Microsoft 365.
 
 ## Features
-- Bulk enable/disable automatic replies
-- Set custom internal and external messages
-- Define start and end dates
-- Log success/failure results
 
-> Useful for IT teams managing user transitions, vacations, or department-wide changes.
+- Schedule auto-replies for entire teams
+- Customize internal and external messages
+- Ideal for holidays, company-wide closures, or department rotations
+
+## Usage
+
+1. Prepare a CSV file with `UserPrincipalName`, `StartTime`, `EndTime`, `InternalMessage`, `ExternalMessage`.
+2. Run the script in Exchange Online PowerShell v2.
+3. Out of Office settings will be applied in bulk.
+
+> This tool is part of the [JetToolbox PowerShell Series](https://jetmariano.us/powershell-toolbox/)
