@@ -1,18 +1,11 @@
-# JetToolbox2 - Active Directory Cleanup Tool
+# JetToolBox2 - Bulk Out of Office Scheduler
 
-This script identifies and optionally disables or deletes stale AD objects such as inactive users or computers.
+This script automates enabling or disabling Out of Office replies in bulk for multiple Microsoft 365 users.
 
 ## Features
-- Finds inactive objects based on lastLogonTimestamp
-- Generates reports or performs cleanup
-- Prevents clutter and supports security hygiene
+- Bulk enable/disable automatic replies
+- Set custom internal and external messages
+- Define start and end dates
+- Log success/failure results
 
-## Usage
-Update threshold days and target OU, then run the script. Always start in report-only mode.
-
-## Requirements
-- RSAT Tools
-- Domain Admin rights
-
-## Author
-Jet Mariano
+> Useful for IT teams managing user transitions, vacations, or department-wide changes.
